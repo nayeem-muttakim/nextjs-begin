@@ -66,7 +66,7 @@ This page fetches data <strong>client-side</strong>. In order to not lea API cre
               height={250}
               alt={image.description}
               key={image.urls.raw}
-              className={StyleSheet.image}
+              className={styles.image}
             />
           ))}
         </>
